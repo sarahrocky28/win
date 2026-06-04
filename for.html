@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Aula For</title>
+</head>
+
+<body>
+    <div id="Linux">
+        <div id="tabuada">
+            <h1> <img src="./img/tux_linux.png" alt="" width="30">TABUADAS</h1>
+            <p>Seja bem vindo a atividade da tabuada</p>
+        </div>
+        <main>
+            <div id="Alxelio"></div>
+            <div id="Adma"></div>
+            <div id="Alika"></div>
+            <div id="Alvaro"></div>
+
+
+            <script>
+                for (let n = 1; n <= 10; n++) {
+                    document.getElementById("Alxelio").innerHTML += `1 X ${n} = ${n} <br>`;
+                    document.getElementById("Adma").innerHTML += `2 X ${n} = ${n * 2} <br>`;
+                    document.getElementById("Alika").innerHTML += `3 X ${n} = ${n * 3} <br>`;
+                    document.getElementById("Alvaro").innerHTML += `4 X ${n} = ${n * 4} <br>`;
+                }
+
+            </script>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    height: 100dvh;
+    position: sticky ;
+    top: 0;
+}
+
+.section-1{
+    background-color: rgb(186, 152, 217);
+}
+.section-2{
+    background-color: rgb(129, 133, 215);
+}
+.section-3{
+    background-color: rgb(145, 193, 133);
+}
+.section-4{
+    background-color: rgb(193, 117, 192);
+}
